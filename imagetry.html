@@ -1,0 +1,30 @@
+
+<html>
+    <body>
+        
+    <form action="imagetry.php" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*">
+    <input type="submit" value="submit">
+    <img src="" alt="">
+</form>
+</body>
+</html>
+
+<!-- <?php
+
+
+// $path="C:\Users\Harshil\Desktop\All Clg Stuff\SY";
+$path = "files/"; 
+$_FILES['file']['name'] = $_FILES['file']['size'].$_FILES['file']['name'].".jpg";
+$path = $path.basename($_FILES['file']['name']);
+if(move_uploaded_file($_FILES['file']['tmp_name'], $path)) 
+{ 
+    echo "Success uploading".basename($_FILES['file']['name']); 
+} 
+else
+{ 
+    echo "Error when uploading file."; 
+}
+
+?> -->
+

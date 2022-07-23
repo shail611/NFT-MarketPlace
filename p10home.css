@@ -1,0 +1,236 @@
+.topnav{
+    background-color: black;
+    width: 98%;
+    height: 40px;
+    color: white;
+    padding: 1px 0;
+    
+    
+}
+.header-section {
+    background: #131313;
+    clear: both;
+    overflow: hidden;
+    padding: 1px 0;
+    border-bottom: 1px solid #ffb320;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color:rgba(200, 209, 208, 0.192);
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container{
+    position: relative;
+}
+
+.containerTitle{
+    color:aliceblue;
+    top:50%;
+    left:10%;
+    position: absolute;
+    font-size: 450%;
+}
+
+.titleInfo{
+    color:aliceblue;
+    top:70%;
+    left:10%;
+    width: 50%;
+    position: absolute;
+    font-size: 130%;
+}
+
+
+.titleRead{
+    position: absolute;
+    top:90%;
+    left:10%;
+    font-weight: 500;
+	background: #ffb320;
+	padding: 8px 28px;
+	border-radius: 30px;
+}
+.titleRead:hover{
+    transform: scale(1.2);
+}
+
+.g4img{
+    
+    background-color: white;
+    align-items: center;
+    height:50%;
+    width:22%;
+    display: inline-block;
+    overflow:hidden;
+    position: relative;
+  
+}
+.g4img:hover{
+    transform:rotate(5deg);
+}
+.allgimg{
+    background-color:rgba(200, 209, 208, 0.192);
+    align-items: center;
+    height:80%;
+    width:44%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+    overflow:hidden;
+    position: relative;
+}
+.allgimg:hover{
+    border:1px solid black;
+    transform: scale(1.15);
+    box-shadow: 5px 10px 20px #2e2d2d;
+}
+.touringHome{
+    
+    background-color: rgb(43, 35, 35);
+    align-items: center;
+    height:55%;
+    width:30%;
+    margin: 0%;
+    display: inline-block;
+    overflow:hidden;
+    position: relative;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+}
+.touringHome:hover{
+    transform:scale(1.1);
+}
+.map{
+    margin: 5%;
+    height: 50%;
+    width: 90%;
+    align-items: center;
+}
+.contact{
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    margin-left: 2%;
+}
+.form{
+    border: 1px solid black;
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+}
+.newGames{
+    
+    background-color: rgb(43, 35, 35);
+    align-items: center;
+    height:36%;
+    width:15%;
+    margin: 0%;
+    display: inline-block;
+    overflow:hidden;
+    position: relative;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+}
+.newGames:hover{
+    transform:scale(1.1);
+}
+.loadMore {
+	float: left;
+	font-weight: 500;
+	background: #ffb320;
+	padding: 8px 28px;
+	border-radius: 30px;
+    display: inline;
+    margin-left: 47%;
+    margin-top: 1%;
+}
+
+.loadMore:hover{
+    transform: scale(1.1);
+}
+
+.user-panel {
+	float: left;
+	font-weight: 500;
+	background: #ffb320;
+	padding: 8px 28px;
+	border-radius: 30px;
+    display: inline;
+}
+
+.user-panel a {
+	font-size: 14px;
+	color: #131313;
+}
+
+footer{
+    text-align: center;
+    background-color: #212529;
+    height: 3000%;
+    color:white;
+}
+
+.main-menu {
+	float:right;
+	margin-right: 270px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+.purchase{
+    width: 100%;
+    height: 35px;
+    margin-top: 1%;
+    border: none; 
+    background-color: rgb(138,43,226);
+}
+.purchase:hover{
+    background-color: rgba(46, 43, 226, 0.582);
+}
+
+.main-menu ul li {
+	display: inline;
+}
+
+.main-menu ul li a {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 35px;
+	font-weight: 500;
+	padding: 10px 5px;
+}
+
+.main-menu ul li a:hover {
+	color: #ffb320;
+}
+
+.header-btn {
+	float: right;
+	margin-right: 0;
+}
+
+.nav-switch {
+	display: none;
+}
+

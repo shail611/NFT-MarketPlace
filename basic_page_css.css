@@ -1,0 +1,46 @@
+*
+{
+
+    background-color:bisque;
+    font-family: sans-serif;
+}
+body header
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+li 
+{
+  
+  float:left;
+}
+li a
+{
+  display: block;
+  color:black;        
+
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li a:hover 
+{
+  font-size: 32px;
+  cursor:pointer;
+  color: white;
+  transition-duration: 1s;
+}
+

@@ -1,0 +1,26 @@
+#container
+{
+    /* background-color:rgb(37, 4, 4); */
+    border: 3px solid black;
+    display: flexbox;
+    font-family: sans-serif;
+}
+#image
+{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#image img
+{
+    height: 350px;
+    width: 350px;
+    margin: 60px;
+    margin-bottom: 40px;
+}
+#content
+{
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    text-align: center;
+}
